@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-2"
 }
 
-
+# connect backend #
 terraform {
   backend "s3" {
     bucket = "sagar1234"
